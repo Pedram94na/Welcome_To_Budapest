@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="JavaScript/Form.js"></script>
+
+        <link rel="stylesheet" href="Styles/Stylesheet.css">
+        <link rel="stylesheet" href="Styles/Print.css" media="Print">
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Contact</title>
+    </head>
+<body>
+    <header id="otherHeaders">
+        <div id="otherLogo">
+            <a href="index.html"><img src="Content/Logo.png" alt="LOGO"></a>
+        </div>
+        <nav id="otherNav">
+            <ul id="otherUl">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="panel" class="main-content">
+        <div id="contact">
+            <div>
+                <img id="otherImg" src="Content/Image3.jpg" alt="Image 3">
+            </div>
+
+            <form id="myForm" action="mailto:pedram94na@gmail.com" method="POST">
+                <div>
+                    <label><input type="radio" name="role" value="student" required> I am a student</label>
+                    <label><input type="radio" name="role" value="teacher" required> I am a teacher</label>
+                </div>
+            
+                <input type="text" name="name" id="name" placeholder="Name"><br><br>
+            
+                <input type="email" name="email" id="email" placeholder="Email"><br><br>
+            
+                <textarea name="message" id="message" placeholder="Message..."></textarea><br><br>
+            
+                <label><input type="checkbox" name="check" id="check">I give consent</label><br><br>
+            
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit" onclick="sendEmail(event)">
+            </form>
+        </div>
+    </div>
+
+    <footer class="exclude-from-print"><p id="footerP">All rights reserved © 2023</p></footer>
+</body>
+</html>

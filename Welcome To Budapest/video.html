@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="Styles/Stylesheet.css">
+        <link rel="stylesheet" href="Styles/Print.css" media="Print">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Video</title>
+    </head>
+<body>
+    <header id="otherHeaders">
+        <div id="otherLogo">
+            <a href="index.html"><img src="Content/Logo.png" alt="LOGO"></a>
+        </div>
+        <nav id="otherNav">
+            <ul id="otherUl">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <figure id="videoPanel" class="exclude-from-print">
+        <div>
+            <video src="Content/Video.mp4" controls poster="Content/Video_Thumbnail.PNG">
+                <track kind="subtitles" src="Video_Transcript/Video-en.vtt" srclang="en" label="English" default>
+            </video>
+        </div>
+    </figure>
+
+    <footer class="exclude-from-print"><p id="footerP">All rights reserved © 2023</p></footer>
+</body>
+</html>

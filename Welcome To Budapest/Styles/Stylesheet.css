@@ -1,0 +1,422 @@
+body {
+    background: url("../Content/Background.jpg") no-repeat center/cover fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+    padding-left: 20px;
+}
+
+#logo {
+    max-width: 20%;
+    height: auto;
+}
+
+header {
+    border-bottom: solid white 1px;
+}
+
+#otherHeaders {
+    background-color: rgb(0 0 0 / 0.8);
+    border: 0;
+    display: inline-flex;
+    border-bottom: solid white 1px;
+}
+
+#otherLogo {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+#otherNav {
+    text-align: right;
+    width: 100%;
+    min-height: max-content;
+}
+
+div {  
+    width: auto;  
+    text-align: center;  
+    padding: 15px;  
+}
+
+img {  
+    max-width: 10%;  
+    height: auto;  
+}
+
+.hiddenImg {
+    display: none;
+}
+
+#thumbnail1 {
+    width: 30%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#thumbnail2 {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    cursor: pointer;
+}
+  
+.modal img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+#otherImg {
+    text-align: center;
+    margin-top: 10px;
+    max-width: 70%;
+}
+
+.introImg {
+    margin-top: 20px;
+    max-width: 250px;
+}
+
+.aboutImg {
+    margin-top: 10px;
+    max-width: 50%;
+}
+
+ul {
+    background-color: rgb(0 0 0 / 0.5);
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#navUl {
+    border-top: solid white 1px;
+}
+
+#otherUl {
+    border: 0;
+    background-color: rgb(0 0 0 / 0);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gold;
+}
+
+#extern {
+    color: gold;
+    text-decoration: underline;
+}
+
+h2, h3, h4, h5 {
+    color: gold;
+    text-align: left;
+    padding-left: 20px;
+    font-size: large;
+}
+
+p {
+    color: white;
+    text-align: left;
+    text-indent: 30px;
+    font-size: larger;
+}
+
+#aboutP {
+    text-indent: 0;
+    text-align: center;
+}
+
+#intro {
+    display: inline-flex;
+    padding: 5%;
+}
+
+#introP {
+    margin: 0 10%;
+}
+
+#homeImgUl {
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.homeImg {
+    margin: 20px 0;
+    padding: 0;
+}
+
+#panel {
+    background-color: grey;
+    background-color: rgb(0 0 0 / 0.8);
+    margin: 30px;
+}
+
+#videoPanel {
+    background-color: grey;
+    background-color: rgb(0 0 0 / 0.8);
+    margin: 30px;
+}
+
+video {
+    width: 85%;
+    height: 30%;
+}
+
+label {
+    color: white;
+    margin: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+input[type="radio"] {
+	margin-right: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	max-width: 400px;
+}
+
+input[type="text"], input[type="email"], textarea, label {
+	margin-bottom: 10px;
+    height: 40px;
+}
+
+textarea {
+	height: 150px;
+}
+
+input[type="submit"], input[type="reset"] {
+	margin: 0 50px;
+	padding: 10px 20px;
+	font-size: small;
+}
+
+table {
+    margin: 30px auto;
+    width: 50%;
+}
+
+th {
+    color: gold;
+    padding: 30px;
+    border: solid 1px white;
+}
+
+td {
+    color: white;
+    padding: 20px;
+    border: solid 1px white;
+}
+
+footer {
+    background-color: black;
+    border-top: solid white 1px;
+    padding: 0 0 10px 0;
+}
+
+#footerP {
+    font-size: small;
+    color: white;
+    text-align: center;
+}
+
+/* Styles for tablet devices */
+@media only screen and (max-width: 768px) {
+    #otherHeaders {
+        background-color: rgb(0 0 0 / 0.8);
+        border: 0;
+        display:list-item ;
+        border-bottom: solid white 1px;
+    }
+
+    #otherLogo {
+        width: auto;
+        text-align: center;
+    }
+
+    #otherNav {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #mobile_li {
+        font-size: smaller;
+        margin: 0 5px;
+    }
+
+    video {
+        height: 500px;
+    }
+
+    #panel {
+        margin: 30px;
+    }
+    
+    p {
+        color: white;
+        text-align: left;
+        text-indent: 30px;
+        font-size: medium;
+    }
+    
+    #otherUl {
+        padding: 0;
+        display: inline-flex;
+        text-align: center;
+    }
+
+    #otherPagesli {
+        font-size: 10%;
+    }
+
+    #introP {
+        line-height: 130%;
+    }
+
+    #thumbnail2 {
+        width: 90%;
+        height: 500px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    table {
+        margin: 30px auto;
+        width: 90%;
+    }
+
+    th {
+        color: gold;
+        padding: 30px;
+        border: solid 1px white;
+        font-size: smaller;
+    }
+    
+    td {
+        color: white;
+        padding: 20px;
+        border: solid 1px white;
+        font-size: smaller;
+    }
+}
+  
+/* Styles for mobile devices */
+@media only screen and (max-width: 480px) {
+    #logo {
+        max-width: 30%;
+        height: auto;
+    }
+
+    #otherHeaders {
+        background-color: rgb(0 0 0 / 0.8);
+        border: 0;
+        display:list-item ;
+        border-bottom: solid white 1px;
+    }
+
+    #otherLogo {
+        width: auto;
+        text-align: center;
+    }
+
+    #otherNav {
+        text-align: center;
+    }
+    #mobile_li {
+        font-size: smaller;
+        margin: 0 5px;
+    }
+
+    #intro {
+        display: list-item;
+        padding: 5%;
+    }
+    
+    h2, h3, h4, h5 {
+        text-align: center;
+    }
+
+    p {
+        text-indent: 0;
+        text-align: center;
+        font-size: small;
+    }
+
+    #introP {
+        margin: 0;
+        padding: 0 10%;
+    }
+
+    video {
+        height: 500px;
+    }
+
+    #panel {
+        margin: 30px;
+    }
+
+    label {
+        color: white;
+        margin: 3px;
+        width: 10%;
+        text-align: center;
+        font-size: small;
+    }
+
+    input[type="text"], input[type="email"] {
+        width: 90%;
+        height: 60%;
+        font-size: small;
+    }
+
+    textarea {
+        width: 90%;
+        font-size: small;
+    }
+
+    input[type="submit"], input[type="reset"], input[type="checkbox"] {
+        margin: 0 5px;
+        padding: 5px 10px;
+        font-size: small;
+    }
+
+    table {
+        margin: 30px auto;
+        width: 90%;
+    }
+
+    th {
+        color: gold;
+        padding: 30px;
+        border: solid 1px white;
+        font-size: xx-small;
+    }
+    
+    td {
+        color: white;
+        padding: 5px;
+        border: solid 1px white;
+        font-size: xx-small;
+    }
+}

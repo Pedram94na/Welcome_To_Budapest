@@ -1,0 +1,71 @@
+header {
+    display: none;
+}
+  
+nav {
+    display: none;
+}
+
+p {
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(89, 75, 0);
+}
+
+a {
+    color: rgb(89, 75, 0);
+    text-decoration: none;
+}
+
+a:after {
+    content: " (" attr(href) ")";
+}
+
+a:visited {
+    color: rgb(59, 4, 196);
+}
+
+#extern {
+    color: rgb(89, 75, 0);
+    text-decoration: underline;
+}
+
+th {
+    color: rgb(89, 75, 0);
+    padding: 30px;
+    border: solid 1px black;
+}
+
+td {
+    color: black;
+    padding: 20px;
+    border: solid 1px black;
+}
+
+p {
+    text-indent: 30px;
+    text-align: left;
+    font-size: medium;
+}
+
+#introP {
+    margin: 0;
+    padding: 0 10%;
+}
+
+label {
+    color: black;
+}
+
+@media print {
+    .exclude-from-print {
+        display: none;
+    }
+}
+
+@page {
+    margin: 1cm;
+    size: A4 portrait;
+}

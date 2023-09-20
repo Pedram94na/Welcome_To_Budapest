@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="JavaScript/Thumbnail.js"></script>
+        
+        <link rel="stylesheet" href="Styles/Stylesheet.css">
+        <link rel="stylesheet" href="Styles/Print.css" media="Print">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>About</title>
+    </head>
+<body>
+    <header id="otherHeaders">
+        <div id="otherLogo">
+            <a href="index.html"><img src="Content/Logo.png" alt="LOGO"></a>
+        </div>
+        <nav id="otherNav">
+            <ul id="otherUl">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="panel" class="main-content">
+        <div id="aboutDiv">
+            <img class="aboutImg" src="Content/Thumbnail1.jpg" alt="Image 4" id="thumbnail1" onclick="showFullImage('fullImage1');">
+      <img class="hiddenImg" src="Content/Image4.jpg" alt="Full Image" id="fullImage1" onclick="hideFullImage('fullImage1');">
+
+            <article id="introP">
+                <h1>Summary</h1>
+                <p id="aboutP">
+                    Budapest has a rich and fascinating history that spans over 2,000 years. The area that is now Budapest was first settled by the Celts in the 1st century BC, and later became part of the Roman Empire. In the 9th century AD, the Magyars (ancestors of modern-day Hungarians) established their own kingdom in the region.
+                    The city of Budapest itself was formed in 1873, with the unification of Buda and Pest, which were previously separate cities on opposite sides of the Danube River. In the late 19th and early 20th centuries, Budapest became a cultural and intellectual hub of Europe, with a thriving arts scene and numerous universities.
+                    Budapest suffered greatly during World War II, with significant damage to its buildings and infrastructure. The city was later under Soviet control for several decades, which had a profound impact on its political and cultural landscape.
+                    Since the fall of communism in 1989, Budapest has undergone significant changes and modernization. Today, it is a vibrant and cosmopolitan city with a rich cultural heritage, attracting millions of visitors each year.
+
+                </p>
+            </article>
+            
+            <img class="aboutImg" src="Content/Thumbnail2.jpg" alt="Image 5" id="thumbnail2" onclick="showFullImage('fullImage2');">
+            <img class="hiddenImg" src="Content/Image5.jpg" alt="Full Image" id="fullImage2" onclick="hideFullImage('fullImage2');">
+
+            <table>
+                <tr>
+                  <th>Name</th>
+                  <th>Date Of Construction</th>
+                  <th>Info</th>
+                </tr>
+                <tr>
+                  <td>Hungarian Parliament Building</td>
+                  <td>1904</td>
+                  <td>The Hungarian Parliament Building in Budapest is one of the city's most iconic landmarks and is considered one of the most beautiful government buildings in the world. </td>
+                </tr>
+                <tr>
+                    <td>St. Stephen's Basilica</td>
+                    <td>1905</td>
+                    <td>St. Stephen's Basilica, also known as Szent István Bazilika in Hungarian, is a magnificent Roman Catholic basilica located in Budapest, Hungary. It was named after St. Stephen, the first king of Hungary, whose right hand is said to be preserved in the church's reliquary..</td>
+                  </tr>
+              </table>
+              
+              
+        </div>
+          
+    </div>
+
+    <footer class="exclude-from-print"><p id="footerP">All rights reserved © 2023</p></footer>
+</body>
+</html>
